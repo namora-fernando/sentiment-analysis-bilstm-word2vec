@@ -168,13 +168,35 @@ Special handling:
 
 ## Model Deployment
 
-For live model interaction:
-
-👉 https://huggingface.co/spaces/namorafn7/imdb-sentiment-analysis-bilstm-word2vec
+For live model interaction, kindly visit the following link *[Hugging Face Model Deployment Link](https://huggingface.co/spaces/namorafn7/imdb-sentiment-analysis-bilstm-word2vec)*.
 
 The deployed application allows users to:
 - Input custom review text  
-- Get real-time sentiment prediction  
+- Get real-time sentiment prediction
+
+The deployed application consists of two main pages:
+
+1. **EDA page**   
+   This page presents brief explanation about the project's problem statement and objective along with EDA questions as the idea for 
+   visualizations and insights based on the historical dataset (`train.csv`) from Kaggle dataset. Users can explore the data patterns
+   and understand the background analysis used before modeling.
+3. **Prediction page**   
+   This page allows users to input custom new sentiment reviews (up to 3 reviews), and obtain real-time predictions from the deployed
+   model built with Streamlit.
+
+### Screenshots of the Web Application
+
+- **EDA Page** <br>
+  ![EDA-page-views](screenshot-page/EDA-page.png) <br>
+  Visitors can scroll through the page and tabs to explore visualizations and insights, the basis of modeling process.
+
+- **Prediction Page** <br>
+  ![Prediction-page-views](screenshot-page/Prediction-page.png) <br>
+  This page provides the user interface for entering new review sentiment to be classified positive or negative.
+
+- **Prediction Example** <br>
+  ![Prediction-page-example](screenshot-page/Prediction-example.png) <br>
+  Example of a prediction result generated from user input.
 
 ---
 
