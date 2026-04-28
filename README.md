@@ -8,6 +8,8 @@
 
 See the [Model Deployment section](#model-deployment) below for implementation details.
 
+Run the notebook on [Kaggle](https://www.kaggle.com/code/namorafn7/imdb-sentiment-analysis-bidirectionallstm-word2vec).
+
 ---
 
 ## Stacks
@@ -60,7 +62,7 @@ The final selected model achieves:
 
 Full implementation is available in Kaggle:
 
-👉 https://www.kaggle.com/code/namorafn7/imdb-sentiment-analysis-bidirectionallstm-word2vec
+👉 [Kaggle-Notebook-Link](https://www.kaggle.com/code/namorafn7/imdb-sentiment-analysis-bidirectionallstm-word2vec)
 
 ### Notebook Outline
 
