@@ -133,17 +133,17 @@ Special handling:
 
 ### 2. Model Development  
 
-#### Model 1 — Baseline  
+#### Model 1 - Baseline  
 - TextVectorization + Embedding  
 - Bidirectional LSTM (2 layers)  
 - Result: Overfitting  
 
-#### Model 2 — Reduced Complexity  
+#### Model 2 - Reduced Complexity  
 - Smaller vocab and sequence length  
 - Single LSTM layer  
 - Result: Still overfitting  
 
-#### Model 3 — Final Model  
+#### Model 3 - Final Model  
 - Word2Vec embeddings  
 - Embedding layer frozen (transfer learning)  
 - Bidirectional LSTM  
